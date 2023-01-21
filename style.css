@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 auto;
+}
+
+#header {
+  min-height: 25vh;
+  min-width: 80%;
+  padding: 0.5% 10% 2% 10%;
+  background-color: #1f2937;
+  color: white;
+}
+
+#nav-links {
+  display: flex;
+}
+
+#nav-links > li {
+  flex: 0 1 auto;
+  margin: auto 10px;
+  list-style: none;
+}
+
+#main-left {
+  max-width: 50%;
+  word-wrap: break-word;
+}
+
+#main-right {
+  min-width: auto;
+}
