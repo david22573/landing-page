@@ -44,6 +44,10 @@ header {
   padding-bottom: 5%;
 }
 
+.header-child.left {
+  width: 38%;
+}
+
 .header-child.left > h1 {
   font-size: 48px;
   font-weight: 800;
@@ -52,6 +56,7 @@ header {
 
 .header-child.right {
   min-width: 50%;
+  min-height: 100%;
   border: white 2px solid;
 }
 /*  */
