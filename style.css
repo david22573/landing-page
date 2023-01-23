@@ -44,8 +44,13 @@ header {
   padding-bottom: 5%;
 }
 
+.header-child {
+  flex: 0 1 auto;
+}
+
 .header-child.left {
   width: 38%;
+  margin-right: 50px;
 }
 
 .header-child.left > h1 {
@@ -55,8 +60,12 @@ header {
 }
 
 .header-child.right {
-  min-width: 50%;
-  min-height: 100%;
-  border: white 2px solid;
+  width: auto;
 }
+
+.header-child.right > img {
+  height: 300px;
+  width: 600px;
+}
+
 /*  */
